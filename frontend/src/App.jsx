@@ -1,14 +1,18 @@
-function App() {
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Result from "./pages/Result";
+import BuyCredit from "./pages/BuyCredit";
+
+const App = () => {
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold text-blue-600 underline">
-        Tailwind is working 🎉
-      </h1>
-      <p className="bg-yellow-200 p-4 rounded-lg">
-        If this text has a yellow background and spacing — all good!
-      </p>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/result" element={<Result />}></Route>
+        <Route path="/buycredit" element={<BuyCredit />}></Route>
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
