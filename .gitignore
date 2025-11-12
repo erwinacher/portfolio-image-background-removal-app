@@ -1,0 +1,153 @@
+# =========================================
+# General
+# =========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+node_modules/
+dist/
+build/
+coverage/
+.vscode/
+.idea/
+.cache/
+*.bak
+
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================================
+# Rust / Cargo
+# =========================================
+# Cargo build directory
+/target/
+
+# Rust tooling
+**/*.rs.bk
+Cargo.lock
+
+# =========================================
+# pnpm / Node / Vite
+# =========================================
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+build/
+vite.config.ts.timestamp*
+.vite/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor settings
+*.sublime-workspace
+*.sublime-project
+
+# =========================================
+# Optional: Frontend frameworks (React/Vue/Svelte)
+# =========================================
+# Uncomment if using one
+# .next/
+# .nuxt/
+# .svelte-kit/
+# out/
+
+# =========================================
+# OS-specific
+# =========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================================
+# Local dev tools
+# =========================================
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/*
+!.idea/codeStyles
